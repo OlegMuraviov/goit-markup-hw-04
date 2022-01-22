@@ -44,19 +44,19 @@
         </nav>
         <ul class="contact-list">
           <li class="contact-item envelope">
-            <svg class="icon-envelope">
-              <use href="./images/icon.svg#icon-envelope"></use>
-            </svg>
             <a class="contact-item-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="icon-envelope" width="16px" height="12px">
+                <use href="./images/icon.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="contact-item">
-            <svg class="icon-smartphone">
-              <use href="./images/icon.svg#icon-smartphone"></use>
-            </svg>
             <a class="contact-item-link" href="tel:+380961111111"
-              >+38 096 111 11 11
+              ><svg class="icon-smartphone" width="10px" height="16px">
+                <use href="./images/icon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
             </a>
           </li>
         </ul>
@@ -64,11 +64,11 @@
     </header>
     <main>
       <!-- ---------------------PORTFOLIO--------------------- -->
-      <section class="container projects-photo">
+      <section class="projects-photo">
         <!-- -------------------в дальнейшем h1 сделать невидимым---- -->
         <h1 class="hiden">Портфолио Студии</h1>
 
-        <div class="projects-main">
+        <div class="container projects-main">
           <ul class="portfolio-btn-title">
             <li class="portfolio-btn-item">
               <button class="btn-portfolio" type="button">Все</button>
@@ -87,7 +87,7 @@
             </li>
           </ul>
         </div>
-        <ul class="images-studio">
+        <ul class="container images-studio">
           <li class="images-item">
             <img
               src="./images/img-tehnokryak.jpg"
